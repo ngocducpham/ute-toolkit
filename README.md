@@ -42,3 +42,26 @@ javascript: (() => {fn().then(e=>{let t=(new DOMParser).parseFromString(e,"text/
 Sau khi hoàn thành các bước trên thì bạn chỉ cần vào `Đăng nhập` vào trang [Đăng Kí Môn Học](https://dkmh.hcmute.edu.vn/) và click vào bookmark bạn vừa thêm sẽ xuất hiện 1 hộp thoại, sau đó nhập thông tin theo hướng dẫn
 
 **Chúc các bạn đăng kí môn học thành công 👍**
+
+## FAQ
+<details>
+   <summary><b>Tại sao script lại luôn báo đăng kí không thành công?</b> (click to show)</summary>
+   
+Đây không phải công cụ thần thánh gì, nó chỉ giúp bạn bỏ qua một số bước để giúp cho việc đăng kí trở nên nhanh hơn, phần lớn đều phải phụ thuộc vào trang web trường và tốc độ mạng của bạn.
+   
+</details>
+
+<details>
+   <summary><b>Xài có mất nick facebook, google, v.v.. không??</b> (click to show)</summary>
+   
+Đương nhiên là không. Do script được viết bằng javascript, mà javascript thì trang nào cũng có. Nếu mà dễ mất nick vậy thì các bạn vào xem phim sẽ gầy chắc có khi mất cả trăm nick rồi.
+   
+</details>
+
+<details>
+   <summary><b>Xài có bị thầy cô phát hiện hay bị khóa đăng kí môn không? </b> (click to show)</summary>
+   
+Cái này mình không chắc nhưng có thể bị, nếu các bạn spam đăng kí quá nhiều trong một lần đăng nhập thì có thể bị block. Mà chỉ có thể nếu nhà trường có triển khai chức năng phát hiện :))
+   
+</details>
+
