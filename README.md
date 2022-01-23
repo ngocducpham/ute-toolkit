@@ -1,7 +1,5 @@
 # UTE Toolkit
 > Script nhỏ hỗ trợ đăng kí môn học nhanh **hơn chút xíu**
-> 
-> **Lưu ý: script này chỉ đăng kí được các môn ở trong phần `Đăng kí ngoài kế hoạch`**
 
 ## Chuẩn bị
 > Ở đây mình hướng dẫn cho trình duyệt Edge. Tuy vậy nhưng các bước cũng rất giống trên các trình duyệt khác
