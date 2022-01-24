@@ -33,7 +33,12 @@ javascript: (() => {if (!window.location.href.includes("dkmh.hcmute.edu.vn")) re
 
 **Code lấy danh sách học phần đã đăng kí**
 ```javascript
-javascript: (() => {fn().then(e=>{let t=(new DOMParser).parseFromString(e,"text/html"),n=t.querySelectorAll("table");n[0].style.setProperty("background-color","white"),n[1].style.setProperty("background-color","white"),document.body.insertAdjacentElement("afterbegin",n[1]),document.body.insertAdjacentElement("afterbegin",n[0]),scroll({top:0,behavior:"smooth"})}).catch(e=>{alert("Không lấy được danh sách môn học đã đăng kí , vui lòng đăng nhập lại.")}),alert("Nhấn OK sau đó đợi một lúc sẽ có kết quả");async function fn(){let e=await fetch("/dangkithanhcong",{method:"GET",credentials:"same-origin",redirect:"error"});return e.text()}})();
+javascript:(()=>{(async function(){let a=await fetch("/dangkithanhcong",{method:"GET",credentials:"same-origin",redirect:"error"});return a.text()})().then(a=>{let b=new DOMParser().parseFromString(a,"text/html"),c=b.querySelectorAll("table");c[0].style.setProperty("background-color","white"),c[1].style.setProperty("background-color","white"),document.body.insertAdjacentElement("afterbegin",c[1]),document.body.insertAdjacentElement("afterbegin",c[0]),scroll({top:0,behavior:"smooth"})}).catch(()=>{alert("Kh\xF4ng l\u1EA5y \u0111\u01B0\u1EE3c danh s\xE1ch m\xF4n h\u1ECDc \u0111\xE3 \u0111\u0103ng k\xED , vui l\xF2ng \u0111\u0103ng nh\u1EADp l\u1EA1i.")}),alert("Nh\u1EA5n OK sau \u0111\xF3 \u0111\u1EE3i m\u1ED9t l\xFAc s\u1EBD c\xF3 k\u1EBFt qu\u1EA3")})();
+```
+
+**Code lấy thời khóa biểu**
+```javascript
+javascript:(()=>{function a(){let a=new Date,b=a.getUTCFullYear(),c=a.getUTCMonth();return 2>c?{yearStudy:b-1+"-"+b,termID:"HK02",week:10}:{YearStudy:b+"-"+b+1,TermID:"HK01",Week:35}}(async function(){let b=a(),c=new URLSearchParams({YearStudy:b.yearStudy,TermID:b.termID,Week:b.week}),d="/ThoiKhoaBieu/HienthiTKB?"+c.toString(),e=await fetch(d,{redirect:"error",credentials:"same-origin"});return e.text()})().then(a=>{let b=new DOMParser().parseFromString(a,"text/html"),c=b.querySelector("div");c.style.backgroundColor="white",document.body.insertAdjacentElement("afterbegin",c),scroll({top:0,behavior:"smooth"})}).catch(()=>{alert("Kh\xF4ng l\u1EA5y \u0111\u01B0\u1EE3c th\u1EDDi kh\xF3a bi\u1EC3u, vui l\xF2ng \u0111\u0103ng nh\u1EADp l\u1EA1i.")})})();
 ```
 
 ## Sử dụng
