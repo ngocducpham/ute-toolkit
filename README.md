@@ -8,14 +8,14 @@
 ### Tạo Bookmark
 
 Vào bất cứ trang web nào sau đó nhìn lên góc cuối phía bên phải của thanh địa chỉ sẽ thấy hình ngôi sao. Click vào và nhấn `Done`
-   
-### Chỉnh sửa Bookmark
-
-> Lưu ý: Nếu không thấy dưới thanh địa chỉ có gì mới xuất hiện thì vào `Setting` tìm chỗ `Show favories bar` và chọn `Always`
 
 Sau khi tạo xong bookmark sẽ thấy bên dưới thanh địa chỉ xuất hiện tên và biểu tượng của trang vừa thêm. 
+
+> Lưu ý: Nếu không thấy dưới thanh địa chỉ có gì mới xuất hiện thì vào `Setting` tìm chỗ `Show favories bar` và chọn `Always`
    
-Chuột phải vào nó và chọn `Edit`. Lúc này sẽ xuất hiện 1 hộp thoại.
+### Chỉnh sửa Bookmark
+   
+Chuột phải vào bookmark và chọn `Edit`. Lúc này sẽ xuất hiện 1 hộp thoại.
 
    * Mục `Name` ghi tùy ý
 
