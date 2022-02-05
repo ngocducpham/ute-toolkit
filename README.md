@@ -11,7 +11,7 @@ Vào bất cứ trang web nào sau đó nhìn lên góc cuối phía bên phải
 
 Sau khi tạo xong bookmark sẽ thấy bên dưới thanh địa chỉ xuất hiện tên và biểu tượng của trang vừa thêm. 
 
-> Lưu ý: Nếu không thấy dưới thanh địa chỉ có gì mới xuất hiện thì vào `Setting` tìm chỗ `Show favories bar` và chọn `Always`
+> Nếu không thấy dưới thanh địa chỉ có gì mới xuất hiện thì vào `Setting` tìm chỗ `Show favories bar` và chọn `Always`
    
 ### Chỉnh sửa Bookmark
    
