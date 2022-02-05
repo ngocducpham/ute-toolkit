@@ -15,7 +15,7 @@ Sau khi tạo xong bookmark sẽ thấy bên dưới thanh địa chỉ xuất h
    
 ### Chỉnh sửa Bookmark
    
-Chuột phải vào bookmark và chọn `Edit`. Lúc này sẽ xuất hiện 1 hộp thoại.
+Chuột phải vào bookmark vừa tạo và chọn `Edit`. Lúc này sẽ xuất hiện 1 hộp thoại.
 
    * Mục `Name` ghi tùy ý
 
